@@ -1,0 +1,19 @@
+Designator,Footprint,Quantity,Value,LCSC Part #,Have It
+A1,Arduino_Nano,1,Arduino_Nano_v3.x,,Y
+"Attack, Decay, Harmonic, Tone",Pot_9mm_DShaft_RemovedPins4_5,4,100K,,Y
+"C1, C2, C3, C4, C5",C_Disc_D3.8mm_W2.6mm_P2.50mm,5,100pF (101),,Y
+C10,C_Disc_D3.8mm_W2.6mm_P2.50mm,1,2.2nF (222),,Y
+C6,C_Disc_D3.8mm_W2.6mm_P2.50mm,1,100nF (104),,Y
+C7,CP_Radial_D5.0mm_P2.50mm,1,10uF,,Y
+C8,C_Disc_D3.8mm_W2.6mm_P2.50mm,1,2.2uF (225),,N
+C9,C_Disc_D3.8mm_W2.6mm_P2.50mm,1,470nF (474),,N
+"D1, D2, D3, D4, D5, D6",D_DO-35_SOD27_P7.62mm_Horizontal,6,BAT43,,Y
+D7,LED_D5.0mm,1,LED,,Y
+J1,EighthInch_PJ398SM_T_TN_S,1,Tune In,,Y
+J2,Pins_2x08_2.54mm_TH_EuroPower_Shrouded,1,Eurorack_Power_16pin_Shrouded,,Y
+J3,EighthInch_PJ398SM_T_TN_S,1,A. Out,,Y
+J4,EighthInch_PJ398SM_T_TN_S,1,Trig In,,Y
+"R1, R10, R2, R3, R4, R5",R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,6,1K,,Y
+"R11, R9",R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,2,470Ω,,Y
+"R6, R8",R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,2,100K,,Y
+R7,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,1,33K,,Y
