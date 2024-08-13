@@ -59,12 +59,18 @@
         }
       ],
       "drc_exclusions": [
-        "courtyards_overlap|61434001|87898001|01261d3e-9496-4ae7-b852-227899134ff4|e3252660-45d2-4b59-95bb-8bb3968108df",
-        "courtyards_overlap|62622374|65552001|01261d3e-9496-4ae7-b852-227899134ff4|c447b630-eb36-4f61-b3fa-81647153b6f6",
-        "courtyards_overlap|63626944|68092001|01261d3e-9496-4ae7-b852-227899134ff4|d87c99fd-8447-4aab-8fea-5fdb11b8ec4f",
-        "courtyards_overlap|70458016|85364001|01261d3e-9496-4ae7-b852-227899134ff4|ff13e8b2-5f25-404e-bdb1-e1954abb8bc7",
-        "lib_footprint_mismatch|55880000|113030000|d6771b15-544e-4406-8dda-884d3c2eeeda|00000000-0000-0000-0000-000000000000",
-        "silk_edge_clearance|51380000|127030000|288a9b70-9df5-4779-922e-867dd1dd7efa|e708eb2d-20a8-464e-9355-9868e76cf128"
+        "pth_inside_courtyard|61640963|57139143|812d198e-4886-4e31-9c34-45149f11a92e|01261d3e-9496-4ae7-b852-227899134ff4",
+        "pth_inside_courtyard|61645963|76811443|3562113e-d451-4e1c-a14e-86120e1efefa|01261d3e-9496-4ae7-b852-227899134ff4",
+        "pth_inside_courtyard|61645963|96471043|e5fc1f7d-247b-46ee-88e5-1ec4ea339ccf|01261d3e-9496-4ae7-b852-227899134ff4",
+        "pth_inside_courtyard|63495163|64149543|0c051dfc-9fd1-46c2-8d54-ec7744b0c84c|01261d3e-9496-4ae7-b852-227899134ff4",
+        "pth_inside_courtyard|63500163|83821843|8d700bc6-fa2f-4c80-804b-0035cf876f04|01261d3e-9496-4ae7-b852-227899134ff4",
+        "pth_inside_courtyard|66035163|64149543|ad343667-c328-430a-8951-85a2eb67a712|01261d3e-9496-4ae7-b852-227899134ff4",
+        "pth_inside_courtyard|66040163|83821843|0de53f64-b70c-4b73-8b75-bfafff49021d|01261d3e-9496-4ae7-b852-227899134ff4",
+        "pth_inside_courtyard|68575163|64149543|42af8235-9ef6-4221-bc32-09a4a0fe937a|01261d3e-9496-4ae7-b852-227899134ff4",
+        "pth_inside_courtyard|68580163|83821843|df32f420-2395-48fb-ab1a-7cacd6ae69a7|01261d3e-9496-4ae7-b852-227899134ff4",
+        "pth_inside_courtyard|70429363|57139143|dc6a2837-5318-41db-bb60-1adcd452c9d1|01261d3e-9496-4ae7-b852-227899134ff4",
+        "pth_inside_courtyard|70434363|76811443|4b166e43-1a79-426d-8222-8f129cfc1bb2|01261d3e-9496-4ae7-b852-227899134ff4",
+        "pth_inside_courtyard|70434363|96471043|e7b4759c-f08d-4b5d-a169-fd00a074095d|01261d3e-9496-4ae7-b852-227899134ff4"
       ],
       "meta": {
         "version": 2
@@ -83,7 +89,7 @@
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "ignore",
+        "footprint_type_mismatch": "warning",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "invalid_outline": "error",
@@ -95,14 +101,14 @@
         "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
-        "missing_courtyard": "ignore",
+        "missing_courtyard": "warning",
         "missing_footprint": "warning",
         "net_conflict": "warning",
-        "npth_inside_courtyard": "ignore",
+        "npth_inside_courtyard": "warning",
         "padstack": "warning",
-        "pth_inside_courtyard": "ignore",
+        "pth_inside_courtyard": "warning",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
+        "silk_edge_clearance": "ignore",
         "silk_over_copper": "ignore",
         "silk_overlap": "ignore",
         "skew_out_of_range": "error",
@@ -527,7 +533,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -539,13 +545,13 @@
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -576,6 +582,12 @@
           "label": "Manufacturer",
           "name": "Manufacturer",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Silkscreen Value",
+          "name": "Silkscreen Value",
+          "show": true
         }
       ],
       "filter_string": "",
