@@ -4626,7 +4626,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100k B"
 			(at 29.21 58.4199 0)
 			(effects
 				(font
@@ -4848,7 +4848,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm"
 			(at 162.2552 132.08 0)
 			(effects
 				(font
@@ -6304,7 +6304,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100k B"
 			(at 29.21 80.0099 0)
 			(effects
 				(font
@@ -6384,7 +6384,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100k B"
 			(at 29.21 36.8299 0)
 			(effects
 				(font
@@ -6967,7 +6967,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100k B"
 			(at 29.21 101.5999 0)
 			(effects
 				(font
