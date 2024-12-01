@@ -6481,6 +6481,7 @@
 		(property "Value" "470"
 			(at 3.81 0 90)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "e6df793f-0d8f-425b-a2e2-c3199ccaadbd")
 			(effects
 				(font
@@ -6527,6 +6528,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Silkscreen Value" "470Ω"
+			(at 3.81 0 -90)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "f483c071-c652-4e1e-8b1e-31f17553ac14")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -8237,6 +8251,7 @@
 		(property "Value" "470"
 			(at 3.81 0 90)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "5777681a-a56c-45a1-94f0-eb740aed8d69")
 			(effects
 				(font
@@ -8283,6 +8298,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Silkscreen Value" "470Ω"
+			(at 3.888043 0 -90)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "273e05a9-9558-4d22-8d15-7e3be5759a8f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)

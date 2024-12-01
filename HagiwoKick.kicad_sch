@@ -7284,6 +7284,15 @@
 				(hide yes)
 			)
 		)
+		(property "Silkscreen Value" "470Ω"
+			(at 181.61 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "93cdfe5d-6e6f-4cca-b025-a4cd49adb49c")
 		)
@@ -8515,6 +8524,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 199.39 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Silkscreen Value" "470Ω"
+			(at 199.39 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
