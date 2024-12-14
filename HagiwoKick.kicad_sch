@@ -4214,7 +4214,7 @@
 				)
 			)
 		)
-		(property "Value" "TUNE CV"
+		(property "Value" "TUNECV"
 			(at 29.21 125.73 0)
 			(effects
 				(font
