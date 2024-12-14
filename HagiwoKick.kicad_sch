@@ -4611,6 +4611,7 @@
 	(symbol
 		(lib_id "Device:R_Potentiometer")
 		(at 31.75 57.15 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4618,7 +4619,7 @@
 		(dnp no)
 		(uuid "29c8e06b-fa34-4308-be83-f49b043f77f6")
 		(property "Reference" "RV2"
-			(at 29.21 55.8799 0)
+			(at 29.21 58.4201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4627,7 +4628,7 @@
 			)
 		)
 		(property "Value" "100k B"
-			(at 29.21 58.4199 0)
+			(at 29.21 55.8801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4663,7 +4664,7 @@
 			)
 		)
 		(property "Silkscreen Value" "HARMONIC"
-			(at 24.384 60.96 0)
+			(at 24.384 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6289,6 +6290,7 @@
 	(symbol
 		(lib_id "Device:R_Potentiometer")
 		(at 31.75 78.74 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6296,7 +6298,7 @@
 		(dnp no)
 		(uuid "6ccce342-a77d-415e-aa9a-59bed7c6171c")
 		(property "Reference" "RV3"
-			(at 29.21 77.4699 0)
+			(at 29.21 80.0101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6305,7 +6307,7 @@
 			)
 		)
 		(property "Value" "100k B"
-			(at 29.21 80.0099 0)
+			(at 29.21 77.4701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6341,7 +6343,7 @@
 			)
 		)
 		(property "Silkscreen Value" "ATTACK"
-			(at 25.908 82.804 0)
+			(at 25.908 74.676 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6369,6 +6371,7 @@
 	(symbol
 		(lib_id "Device:R_Potentiometer")
 		(at 31.75 35.56 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6376,7 +6379,7 @@
 		(dnp no)
 		(uuid "6cd01fc6-5f93-42ed-ad93-5f5d258a9bc2")
 		(property "Reference" "RV1"
-			(at 29.21 34.2899 0)
+			(at 29.21 36.8301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6385,7 +6388,7 @@
 			)
 		)
 		(property "Value" "100k B"
-			(at 29.21 36.8299 0)
+			(at 29.21 34.2901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6421,7 +6424,7 @@
 			)
 		)
 		(property "Silkscreen Value" "TONE"
-			(at 26.67 39.37 0)
+			(at 26.67 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6952,6 +6955,7 @@
 	(symbol
 		(lib_id "Device:R_Potentiometer")
 		(at 31.75 100.33 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6959,7 +6963,7 @@
 		(dnp no)
 		(uuid "7aaa1091-abf4-4250-a52d-8e34dcf29574")
 		(property "Reference" "RV4"
-			(at 29.21 99.0599 0)
+			(at 29.21 101.6001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6968,7 +6972,7 @@
 			)
 		)
 		(property "Value" "100k B"
-			(at 29.21 101.5999 0)
+			(at 29.21 99.0601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7004,7 +7008,7 @@
 			)
 		)
 		(property "Silkscreen Value" "DECAY"
-			(at 26.162 104.394 0)
+			(at 26.162 96.266 0)
 			(effects
 				(font
 					(size 1.27 1.27)
