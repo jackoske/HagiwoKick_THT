@@ -2813,16 +2813,16 @@
 		(uuid "086fd14d-7c5b-4659-9bc7-0e94a1bb593b")
 	)
 	(no_connect
-		(at 234.95 49.53)
-		(uuid "129ffc31-8252-43b6-9d4d-9d8c50121f6d")
-	)
-	(no_connect
 		(at 143.51 59.69)
 		(uuid "1a047758-fece-4b24-bafb-ddac01ba5940")
 	)
 	(no_connect
 		(at 118.11 52.07)
 		(uuid "1e74bb5f-2f81-478d-8573-ffc544065a43")
+	)
+	(no_connect
+		(at 228.6 43.18)
+		(uuid "2231053f-85fa-4401-b926-a5645ab5a7d8")
 	)
 	(no_connect
 		(at 118.11 62.23)
@@ -2833,20 +2833,20 @@
 		(uuid "394caf2b-b3df-472c-ae8f-1fd59ddbe32a")
 	)
 	(no_connect
+		(at 228.6 72.39)
+		(uuid "3fb6b683-0d1e-40e3-b0c2-177945d9c59a")
+	)
+	(no_connect
 		(at 118.11 49.53)
 		(uuid "5190a6c8-cd27-4999-a9af-e54dbac02259")
 	)
 	(no_connect
-		(at 25.4 138.43)
-		(uuid "8bbe343f-bae1-4b0a-84c1-c66a077481c3")
+		(at 31.75 132.08)
+		(uuid "67186c2e-ee10-4e01-82b8-41c6492dd848")
 	)
 	(no_connect
 		(at 118.11 69.85)
 		(uuid "8f0eb2da-736f-4805-b15f-3e1855236a03")
-	)
-	(no_connect
-		(at 234.95 78.74)
-		(uuid "93ede2c4-eeef-41c1-bd7a-e571f6ed058c")
 	)
 	(no_connect
 		(at 143.51 39.37)
@@ -3017,6 +3017,16 @@
 			(type default)
 		)
 		(uuid "3b2140a5-b2f7-403f-92da-b49d7687999e")
+	)
+	(wire
+		(pts
+			(xy 228.6 46.99) (xy 228.6 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cde48d3-8efa-4c40-8678-0bab7e3d7204")
 	)
 	(wire
 		(pts
@@ -3280,16 +3290,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 132.08) (xy 43.18 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "917b6359-9564-4b4d-90dd-94b791c44fd7")
-	)
-	(wire
-		(pts
 			(xy 138.43 129.54) (xy 138.43 132.08)
 		)
 		(stroke
@@ -3350,16 +3350,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 43.18) (xy 228.6 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a16be755-5e49-4308-9137-4d645e8537dc")
-	)
-	(wire
-		(pts
 			(xy 125.73 124.46) (xy 138.43 124.46)
 		)
 		(stroke
@@ -3367,16 +3357,6 @@
 			(type default)
 		)
 		(uuid "a51085cf-177d-49a3-bca9-a2af8c7c463e")
-	)
-	(wire
-		(pts
-			(xy 226.06 72.39) (xy 228.6 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abfe354d-af49-4c0f-9a40-3be17eb7c3f5")
 	)
 	(wire
 		(pts
@@ -3407,6 +3387,16 @@
 			(type default)
 		)
 		(uuid "bd6b2ef8-a771-4253-9342-a7d4605a6b44")
+	)
+	(wire
+		(pts
+			(xy 228.6 49.53) (xy 234.95 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0888626-1e56-4a01-8b63-89cc9bfa2fdc")
 	)
 	(wire
 		(pts
@@ -3607,6 +3597,16 @@
 			(type default)
 		)
 		(uuid "f2fc4bbd-9f31-45a3-9698-d792b2099381")
+	)
+	(text "Sounds way louder/beefier without C10 filter cap,\nbut with high frequency aliasing noise!"
+		(exclude_from_sim no)
+		(at 219.202 26.924 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "df4fe6e6-f333-4155-9c3d-26ea086c6ab1")
 	)
 	(global_label "D3"
 		(shape input)
@@ -4214,7 +4214,7 @@
 				)
 			)
 		)
-		(property "Value" "TUNECV"
+		(property "Value" "HARMCV"
 			(at 29.21 125.73 0)
 			(effects
 				(font
@@ -5648,6 +5648,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 25.4 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a2d0724-1b4c-4c71-8f5f-228a1ab2dbff")
+		(property "Reference" "#PWR09"
+			(at 25.4 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 25.4 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 25.4 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01a26cb7-ea94-409e-99fb-faf8975791b8")
+		)
+		(instances
+			(project "HagiwoKick"
+				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 138.43 134.62 180)
 		(unit 1)
@@ -7035,72 +7101,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 43.18 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7c26b55b-c39d-4dc6-a900-495a39d74938")
-		(property "Reference" "#PWR09"
-			(at 43.18 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 43.18 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 43.18 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fd23ba1b-51ef-49cb-a8e5-a844ab501ebc")
-		)
-		(instances
-			(project "HagiwoKick"
-				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 130.81 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8338,72 +8338,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 226.06 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b5e43e20-08aa-4849-ae60-7f7e60a843d2")
-		(property "Reference" "#PWR024"
-			(at 226.06 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 226.06 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 226.06 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 226.06 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "947cc9ba-965e-4d89-bd33-e09e36892162")
-		)
-		(instances
-			(project "HagiwoKick"
-				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 55.88 60.96 0)
 		(unit 1)
@@ -8688,6 +8622,72 @@
 			(project "HagiwoKick"
 				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 234.95 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec7299d1-d675-4e9c-be53-31112dc4b1af")
+		(property "Reference" "#PWR024"
+			(at 234.95 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 234.95 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 234.95 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aad6d0f0-fa74-46f8-9adc-ccacbd978260")
+		)
+		(instances
+			(project "HagiwoKick"
+				(path "/599a98da-a4a2-4635-97eb-f901b14811e2"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
