@@ -1,3 +1,9 @@
+// I made one change from the original code
+// In our circuit the knob_tone comes in with GND on the counterclockwise end of the pot and +5V on the clockwise end
+// Hagiwo wired it in reverse as the pitch is controlled by the delay length, where a short delay = higher frequency and a long delay = a lower frequency
+// but to me it makes more electrical sense to wire it as above and instead flip the knob_tone input on the code side, so that a short delay = higher pitch
+// so i changed `knob_tone = analogRead(0) / 64;` to `knob_tone = (1023 - analogRead(0) ) / 64;`
+
 #include <avr/io.h>
 
 //---------basic waveform make--------------------
@@ -59,7 +65,7 @@ void loop() {
  i ++;
  if (i > 179) {
 
-   knob_tone = analogRead(0) / 64;
+   knob_tone = (1023 - analogRead(0) ) / 64; // change from the original code (see notes at top)
    knob_harm = (1023 - analogRead(1) ) / 32;
    knob_decay = analogRead(3) / 16;
    knob_attack = analogRead(5) / 16;
